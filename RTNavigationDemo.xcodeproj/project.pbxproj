@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8320FAC55997F3FA8291400 /* libPods-RTNavigationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0E4A49092B0B759619CB54 /* libPods-RTNavigationDemo.a */; };
+		F1F7986F1D2FA16C00A2148B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F7986E1D2FA16C00A2148B /* main.m */; };
+		F1F798721D2FA16C00A2148B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F798711D2FA16C00A2148B /* AppDelegate.m */; };
+		F1F798751D2FA16C00A2148B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F798741D2FA16C00A2148B /* ViewController.m */; };
+		F1F798781D2FA16C00A2148B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F798761D2FA16C00A2148B /* Main.storyboard */; };
+		F1F7987A1D2FA16C00A2148B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F798791D2FA16C00A2148B /* Assets.xcassets */; };
+		F1F7987D1D2FA16C00A2148B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F7987B1D2FA16C00A2148B /* LaunchScreen.storyboard */; };
+		F1F7988D1D2FA18800A2148B /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = F1F798861D2FA18800A2148B /* .gitkeep */; };
+		F1F7988E1D2FA18800A2148B /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = F1F798881D2FA18800A2148B /* .gitkeep */; };
+		F1F7988F1D2FA18800A2148B /* RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F7988A1D2FA18800A2148B /* RTRootNavigationController.m */; };
+		F1F798901D2FA18800A2148B /* UIViewController+RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F7988C1D2FA18800A2148B /* UIViewController+RTRootNavigationController.m */; };
+		F1F798931D2FA33700A2148B /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F798921D2FA33700A2148B /* TabBarViewController.m */; };
+		F1F798961D2FA35600A2148B /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F798951D2FA35600A2148B /* ViewController2.m */; };
+		F1F798991D2FA73000A2148B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F798981D2FA73000A2148B /* BaseViewController.m */; };
+		F1F7989C1D2FA7AF00A2148B /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F7989B1D2FA7AF00A2148B /* DetailController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A0E4A49092B0B759619CB54 /* libPods-RTNavigationDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RTNavigationDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A407C330BE8F1FA0BD84FA1 /* Pods-RTNavigationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTNavigationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTNavigationDemo/Pods-RTNavigationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BBD633A667A1ECC5A4897371 /* Pods-RTNavigationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTNavigationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTNavigationDemo/Pods-RTNavigationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F1F7986A1D2FA16C00A2148B /* RTNavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTNavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F7986E1D2FA16C00A2148B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1F798701D2FA16C00A2148B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1F798711D2FA16C00A2148B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1F798731D2FA16C00A2148B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1F798741D2FA16C00A2148B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1F798771D2FA16C00A2148B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1F798791D2FA16C00A2148B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1F7987C1D2FA16C00A2148B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1F7987E1D2FA16C00A2148B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F798861D2FA18800A2148B /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		F1F798881D2FA18800A2148B /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		F1F798891D2FA18800A2148B /* RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTRootNavigationController.h; sourceTree = "<group>"; };
+		F1F7988A1D2FA18800A2148B /* RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTRootNavigationController.m; sourceTree = "<group>"; };
+		F1F7988B1D2FA18800A2148B /* UIViewController+RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RTRootNavigationController.h"; sourceTree = "<group>"; };
+		F1F7988C1D2FA18800A2148B /* UIViewController+RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RTRootNavigationController.m"; sourceTree = "<group>"; };
+		F1F798911D2FA33700A2148B /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		F1F798921D2FA33700A2148B /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		F1F798941D2FA35600A2148B /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		F1F798951D2FA35600A2148B /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		F1F798971D2FA73000A2148B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F1F798981D2FA73000A2148B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F1F7989A1D2FA7AF00A2148B /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		F1F7989B1D2FA7AF00A2148B /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1F798671D2FA16C00A2148B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8320FAC55997F3FA8291400 /* libPods-RTNavigationDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A83487846F8415385173831 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A407C330BE8F1FA0BD84FA1 /* Pods-RTNavigationDemo.debug.xcconfig */,
+				BBD633A667A1ECC5A4897371 /* Pods-RTNavigationDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4273B89A35F4793D3FF0AB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E4A49092B0B759619CB54 /* libPods-RTNavigationDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1F798611D2FA16C00A2148B = {
+			isa = PBXGroup;
+			children = (
+				F1F7986C1D2FA16C00A2148B /* RTNavigationDemo */,
+				F1F7986B1D2FA16C00A2148B /* Products */,
+				4A83487846F8415385173831 /* Pods */,
+				A4273B89A35F4793D3FF0AB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1F7986B1D2FA16C00A2148B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1F7986A1D2FA16C00A2148B /* RTNavigationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1F7986C1D2FA16C00A2148B /* RTNavigationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F1F798841D2FA18800A2148B /* RTRootNavigationController */,
+				F1F798701D2FA16C00A2148B /* AppDelegate.h */,
+				F1F798711D2FA16C00A2148B /* AppDelegate.m */,
+				F1F798911D2FA33700A2148B /* TabBarViewController.h */,
+				F1F798921D2FA33700A2148B /* TabBarViewController.m */,
+				F1F798731D2FA16C00A2148B /* ViewController.h */,
+				F1F798741D2FA16C00A2148B /* ViewController.m */,
+				F1F798941D2FA35600A2148B /* ViewController2.h */,
+				F1F798951D2FA35600A2148B /* ViewController2.m */,
+				F1F7989A1D2FA7AF00A2148B /* DetailController.h */,
+				F1F7989B1D2FA7AF00A2148B /* DetailController.m */,
+				F1F798761D2FA16C00A2148B /* Main.storyboard */,
+				F1F798791D2FA16C00A2148B /* Assets.xcassets */,
+				F1F7987B1D2FA16C00A2148B /* LaunchScreen.storyboard */,
+				F1F7987E1D2FA16C00A2148B /* Info.plist */,
+				F1F7986D1D2FA16C00A2148B /* Supporting Files */,
+				F1F798971D2FA73000A2148B /* BaseViewController.h */,
+				F1F798981D2FA73000A2148B /* BaseViewController.m */,
+			);
+			path = RTNavigationDemo;
+			sourceTree = "<group>";
+		};
+		F1F7986D1D2FA16C00A2148B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1F7986E1D2FA16C00A2148B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1F798841D2FA18800A2148B /* RTRootNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				F1F798851D2FA18800A2148B /* Assets */,
+				F1F798871D2FA18800A2148B /* Classes */,
+			);
+			path = RTRootNavigationController;
+			sourceTree = "<group>";
+		};
+		F1F798851D2FA18800A2148B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F1F798861D2FA18800A2148B /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F1F798871D2FA18800A2148B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F1F798881D2FA18800A2148B /* .gitkeep */,
+				F1F798891D2FA18800A2148B /* RTRootNavigationController.h */,
+				F1F7988A1D2FA18800A2148B /* RTRootNavigationController.m */,
+				F1F7988B1D2FA18800A2148B /* UIViewController+RTRootNavigationController.h */,
+				F1F7988C1D2FA18800A2148B /* UIViewController+RTRootNavigationController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1F798691D2FA16C00A2148B /* RTNavigationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F798811D2FA16C00A2148B /* Build configuration list for PBXNativeTarget "RTNavigationDemo" */;
+			buildPhases = (
+				38929798B5F6BDFBDBB609C3 /* Check Pods Manifest.lock */,
+				F1F798661D2FA16C00A2148B /* Sources */,
+				F1F798671D2FA16C00A2148B /* Frameworks */,
+				F1F798681D2FA16C00A2148B /* Resources */,
+				5CE439F59BA1C4FEA3755226 /* Embed Pods Frameworks */,
+				5428C4360E2D58990B1DDB30 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTNavigationDemo;
+			productName = RTNavigationDemo;
+			productReference = F1F7986A1D2FA16C00A2148B /* RTNavigationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1F798621D2FA16C00A2148B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "宋海梁";
+				TargetAttributes = {
+					F1F798691D2FA16C00A2148B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F1F798651D2FA16C00A2148B /* Build configuration list for PBXProject "RTNavigationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1F798611D2FA16C00A2148B;
+			productRefGroup = F1F7986B1D2FA16C00A2148B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1F798691D2FA16C00A2148B /* RTNavigationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1F798681D2FA16C00A2148B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F7987D1D2FA16C00A2148B /* LaunchScreen.storyboard in Resources */,
+				F1F7987A1D2FA16C00A2148B /* Assets.xcassets in Resources */,
+				F1F7988E1D2FA18800A2148B /* .gitkeep in Resources */,
+				F1F798781D2FA16C00A2148B /* Main.storyboard in Resources */,
+				F1F7988D1D2FA18800A2148B /* .gitkeep in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38929798B5F6BDFBDBB609C3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5428C4360E2D58990B1DDB30 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTNavigationDemo/Pods-RTNavigationDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CE439F59BA1C4FEA3755226 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTNavigationDemo/Pods-RTNavigationDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1F798661D2FA16C00A2148B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F798961D2FA35600A2148B /* ViewController2.m in Sources */,
+				F1F798991D2FA73000A2148B /* BaseViewController.m in Sources */,
+				F1F7989C1D2FA7AF00A2148B /* DetailController.m in Sources */,
+				F1F798751D2FA16C00A2148B /* ViewController.m in Sources */,
+				F1F7988F1D2FA18800A2148B /* RTRootNavigationController.m in Sources */,
+				F1F798721D2FA16C00A2148B /* AppDelegate.m in Sources */,
+				F1F798901D2FA18800A2148B /* UIViewController+RTRootNavigationController.m in Sources */,
+				F1F798931D2FA33700A2148B /* TabBarViewController.m in Sources */,
+				F1F7986F1D2FA16C00A2148B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1F798761D2FA16C00A2148B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1F798771D2FA16C00A2148B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1F7987B1D2FA16C00A2148B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1F7987C1D2FA16C00A2148B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1F7987F1D2FA16C00A2148B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1F798801D2FA16C00A2148B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1F798821D2FA16C00A2148B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A407C330BE8F1FA0BD84FA1 /* Pods-RTNavigationDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RTNavigationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jicaas.RTNavigationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1F798831D2FA16C00A2148B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD633A667A1ECC5A4897371 /* Pods-RTNavigationDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RTNavigationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jicaas.RTNavigationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1F798651D2FA16C00A2148B /* Build configuration list for PBXProject "RTNavigationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F7987F1D2FA16C00A2148B /* Debug */,
+				F1F798801D2FA16C00A2148B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F798811D2FA16C00A2148B /* Build configuration list for PBXNativeTarget "RTNavigationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F798821D2FA16C00A2148B /* Debug */,
+				F1F798831D2FA16C00A2148B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1F798621D2FA16C00A2148B /* Project object */;
+}
