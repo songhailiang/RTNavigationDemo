@@ -31,12 +31,22 @@
 
     [super viewWillAppear:animated];
     
+    self.navigationController.navigationBar.translucent = NO;
+    
     if ([self isKindOfClass:[ViewController class]] || [self isKindOfClass:[ViewController2 class]]) {
         [self.rdv_tabBarController setTabBarHidden:NO animated:YES];
     }
     else {
         [self.rdv_tabBarController setTabBarHidden:YES animated:YES];
     }
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+}
+
+- (BOOL)shouldAutorotate {
+    return NO;
 }
 
 /*

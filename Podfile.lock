@@ -1,10 +1,21 @@
 PODS:
+  - IQKeyboardManager (4.0.5)
+  - LTNavigationBar (2.1.6)
   - RDVTabBarController (1.1.9)
+  - RTRootNavigationController (0.5.20)
 
 DEPENDENCIES:
+  - IQKeyboardManager (~> 4.0.4)
+  - LTNavigationBar (~> 2.1.2)
   - RDVTabBarController (~> 1.1.9)
+  - RTRootNavigationController (~> 0.5.20)
 
 SPEC CHECKSUMS:
+  IQKeyboardManager: 50b62c0603308968256f8208886e206c1dcce607
+  LTNavigationBar: 9ef51488bf289b1f65dbcb17ac92888c4ae23e30
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
+  RTRootNavigationController: 768b8ef4b3b2473a20e75db8f73ab6e4110321be
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: b4ec5a4b9b551e4a6eb4e711386e2b9824719a3f
+
+COCOAPODS: 1.0.1

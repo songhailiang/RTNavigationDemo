@@ -7,17 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E8320FAC55997F3FA8291400 /* libPods-RTNavigationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0E4A49092B0B759619CB54 /* libPods-RTNavigationDemo.a */; };
+		482F87C021E16C191AC78D99 /* libPods-RTNavigationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CE8DEC2D17F8FB0A5DE20F /* libPods-RTNavigationDemo.a */; };
 		F1F7986F1D2FA16C00A2148B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F7986E1D2FA16C00A2148B /* main.m */; };
 		F1F798721D2FA16C00A2148B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F798711D2FA16C00A2148B /* AppDelegate.m */; };
 		F1F798751D2FA16C00A2148B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F798741D2FA16C00A2148B /* ViewController.m */; };
 		F1F798781D2FA16C00A2148B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F798761D2FA16C00A2148B /* Main.storyboard */; };
 		F1F7987A1D2FA16C00A2148B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F798791D2FA16C00A2148B /* Assets.xcassets */; };
 		F1F7987D1D2FA16C00A2148B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F7987B1D2FA16C00A2148B /* LaunchScreen.storyboard */; };
-		F1F7988D1D2FA18800A2148B /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = F1F798861D2FA18800A2148B /* .gitkeep */; };
-		F1F7988E1D2FA18800A2148B /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = F1F798881D2FA18800A2148B /* .gitkeep */; };
-		F1F7988F1D2FA18800A2148B /* RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F7988A1D2FA18800A2148B /* RTRootNavigationController.m */; };
-		F1F798901D2FA18800A2148B /* UIViewController+RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F7988C1D2FA18800A2148B /* UIViewController+RTRootNavigationController.m */; };
 		F1F798931D2FA33700A2148B /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F798921D2FA33700A2148B /* TabBarViewController.m */; };
 		F1F798961D2FA35600A2148B /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F798951D2FA35600A2148B /* ViewController2.m */; };
 		F1F798991D2FA73000A2148B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F798981D2FA73000A2148B /* BaseViewController.m */; };
@@ -25,9 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3A0E4A49092B0B759619CB54 /* libPods-RTNavigationDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RTNavigationDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A407C330BE8F1FA0BD84FA1 /* Pods-RTNavigationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTNavigationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTNavigationDemo/Pods-RTNavigationDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		BBD633A667A1ECC5A4897371 /* Pods-RTNavigationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTNavigationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTNavigationDemo/Pods-RTNavigationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		74946160F9A0D64A72E9ADE7 /* Pods-RTNavigationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTNavigationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTNavigationDemo/Pods-RTNavigationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B1CE8DEC2D17F8FB0A5DE20F /* libPods-RTNavigationDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RTNavigationDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0E53AEF62A4921B373B669 /* Pods-RTNavigationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTNavigationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTNavigationDemo/Pods-RTNavigationDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F1F7986A1D2FA16C00A2148B /* RTNavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTNavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F7986E1D2FA16C00A2148B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1F798701D2FA16C00A2148B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,12 +34,6 @@
 		F1F798791D2FA16C00A2148B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1F7987C1D2FA16C00A2148B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1F7987E1D2FA16C00A2148B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1F798861D2FA18800A2148B /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		F1F798881D2FA18800A2148B /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		F1F798891D2FA18800A2148B /* RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTRootNavigationController.h; sourceTree = "<group>"; };
-		F1F7988A1D2FA18800A2148B /* RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTRootNavigationController.m; sourceTree = "<group>"; };
-		F1F7988B1D2FA18800A2148B /* UIViewController+RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RTRootNavigationController.h"; sourceTree = "<group>"; };
-		F1F7988C1D2FA18800A2148B /* UIViewController+RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RTRootNavigationController.m"; sourceTree = "<group>"; };
 		F1F798911D2FA33700A2148B /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		F1F798921D2FA33700A2148B /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		F1F798941D2FA35600A2148B /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
@@ -59,28 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8320FAC55997F3FA8291400 /* libPods-RTNavigationDemo.a in Frameworks */,
+				482F87C021E16C191AC78D99 /* libPods-RTNavigationDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A83487846F8415385173831 /* Pods */ = {
+		A87E966CE6F1DA10E113DB6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4A407C330BE8F1FA0BD84FA1 /* Pods-RTNavigationDemo.debug.xcconfig */,
-				BBD633A667A1ECC5A4897371 /* Pods-RTNavigationDemo.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		A4273B89A35F4793D3FF0AB3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3A0E4A49092B0B759619CB54 /* libPods-RTNavigationDemo.a */,
+				B1CE8DEC2D17F8FB0A5DE20F /* libPods-RTNavigationDemo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BECA942B6FE57983C01656D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE0E53AEF62A4921B373B669 /* Pods-RTNavigationDemo.debug.xcconfig */,
+				74946160F9A0D64A72E9ADE7 /* Pods-RTNavigationDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		F1F798611D2FA16C00A2148B = {
@@ -88,8 +78,8 @@
 			children = (
 				F1F7986C1D2FA16C00A2148B /* RTNavigationDemo */,
 				F1F7986B1D2FA16C00A2148B /* Products */,
-				4A83487846F8415385173831 /* Pods */,
-				A4273B89A35F4793D3FF0AB3 /* Frameworks */,
+				BECA942B6FE57983C01656D5 /* Pods */,
+				A87E966CE6F1DA10E113DB6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +94,6 @@
 		F1F7986C1D2FA16C00A2148B /* RTNavigationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F1F798841D2FA18800A2148B /* RTRootNavigationController */,
 				F1F798701D2FA16C00A2148B /* AppDelegate.h */,
 				F1F798711D2FA16C00A2148B /* AppDelegate.m */,
 				F1F798911D2FA33700A2148B /* TabBarViewController.h */,
@@ -134,35 +123,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F1F798841D2FA18800A2148B /* RTRootNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				F1F798851D2FA18800A2148B /* Assets */,
-				F1F798871D2FA18800A2148B /* Classes */,
-			);
-			path = RTRootNavigationController;
-			sourceTree = "<group>";
-		};
-		F1F798851D2FA18800A2148B /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				F1F798861D2FA18800A2148B /* .gitkeep */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		F1F798871D2FA18800A2148B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				F1F798881D2FA18800A2148B /* .gitkeep */,
-				F1F798891D2FA18800A2148B /* RTRootNavigationController.h */,
-				F1F7988A1D2FA18800A2148B /* RTRootNavigationController.m */,
-				F1F7988B1D2FA18800A2148B /* UIViewController+RTRootNavigationController.h */,
-				F1F7988C1D2FA18800A2148B /* UIViewController+RTRootNavigationController.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,12 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1F798811D2FA16C00A2148B /* Build configuration list for PBXNativeTarget "RTNavigationDemo" */;
 			buildPhases = (
-				38929798B5F6BDFBDBB609C3 /* Check Pods Manifest.lock */,
+				03296E4F5A7D08E26ECF24D5 /* [CP] Check Pods Manifest.lock */,
 				F1F798661D2FA16C00A2148B /* Sources */,
 				F1F798671D2FA16C00A2148B /* Frameworks */,
 				F1F798681D2FA16C00A2148B /* Resources */,
-				5CE439F59BA1C4FEA3755226 /* Embed Pods Frameworks */,
-				5428C4360E2D58990B1DDB30 /* Copy Pods Resources */,
+				4A93AC0483ECCBBEAA803275 /* [CP] Embed Pods Frameworks */,
+				2F56E0F699C54FF67F2CA407 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,23 +185,21 @@
 			files = (
 				F1F7987D1D2FA16C00A2148B /* LaunchScreen.storyboard in Resources */,
 				F1F7987A1D2FA16C00A2148B /* Assets.xcassets in Resources */,
-				F1F7988E1D2FA18800A2148B /* .gitkeep in Resources */,
 				F1F798781D2FA16C00A2148B /* Main.storyboard in Resources */,
-				F1F7988D1D2FA18800A2148B /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		38929798B5F6BDFBDBB609C3 /* Check Pods Manifest.lock */ = {
+		03296E4F5A7D08E26ECF24D5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,14 +207,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		5428C4360E2D58990B1DDB30 /* Copy Pods Resources */ = {
+		2F56E0F699C54FF67F2CA407 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,14 +222,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTNavigationDemo/Pods-RTNavigationDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5CE439F59BA1C4FEA3755226 /* Embed Pods Frameworks */ = {
+		4A93AC0483ECCBBEAA803275 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,9 +248,7 @@
 				F1F798991D2FA73000A2148B /* BaseViewController.m in Sources */,
 				F1F7989C1D2FA7AF00A2148B /* DetailController.m in Sources */,
 				F1F798751D2FA16C00A2148B /* ViewController.m in Sources */,
-				F1F7988F1D2FA18800A2148B /* RTRootNavigationController.m in Sources */,
 				F1F798721D2FA16C00A2148B /* AppDelegate.m in Sources */,
-				F1F798901D2FA18800A2148B /* UIViewController+RTRootNavigationController.m in Sources */,
 				F1F798931D2FA33700A2148B /* TabBarViewController.m in Sources */,
 				F1F7986F1D2FA16C00A2148B /* main.m in Sources */,
 			);
@@ -402,7 +358,7 @@
 		};
 		F1F798821D2FA16C00A2148B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A407C330BE8F1FA0BD84FA1 /* Pods-RTNavigationDemo.debug.xcconfig */;
+			baseConfigurationReference = BE0E53AEF62A4921B373B669 /* Pods-RTNavigationDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RTNavigationDemo/Info.plist;
@@ -414,7 +370,7 @@
 		};
 		F1F798831D2FA16C00A2148B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBD633A667A1ECC5A4897371 /* Pods-RTNavigationDemo.release.xcconfig */;
+			baseConfigurationReference = 74946160F9A0D64A72E9ADE7 /* Pods-RTNavigationDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RTNavigationDemo/Info.plist;

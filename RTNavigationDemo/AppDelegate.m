@@ -17,6 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:58/255.0 green:58/255.0 blue:58/255.0 alpha:1.0]];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                         [UIColor whiteColor],NSForegroundColorAttributeName
+                                                         ,[UIFont systemFontOfSize:20.0], NSFontAttributeName, nil]];
+    
     return YES;
 }
 

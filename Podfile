@@ -5,5 +5,8 @@
 
 target 'RTNavigationDemo' do
 pod 'RDVTabBarController', '~> 1.1.9'
+pod 'LTNavigationBar', '~> 2.1.2'
+pod 'IQKeyboardManager', '~> 4.0.4'
+pod 'RTRootNavigationController', '~> 0.5.20'
 end
 

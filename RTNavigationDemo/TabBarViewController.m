@@ -27,6 +27,7 @@
     ViewController *vc = [sb instantiateViewControllerWithIdentifier:@"ViewController"];
     ViewController2 *vc2 = [sb instantiateViewControllerWithIdentifier:@"ViewController2"];
     RTRootNavigationController *nav1 = [[RTRootNavigationController alloc] initWithRootViewController:vc];
+    nav1.navigationBar.barStyle = UIBarStyleBlack;
     RTRootNavigationController *nav2 = [[RTRootNavigationController alloc] initWithRootViewController:vc2];
     
     self.viewControllers = @[nav1,nav2];
@@ -57,6 +58,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL)shouldAutorotate {
+
+    return [self.selectedViewController shouldAutorotate];
 }
 
 /*
